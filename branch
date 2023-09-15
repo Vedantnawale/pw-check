@@ -1,0 +1,32 @@
+
+Vedant@ALTIMO MINGW64 ~/git-pw (master)
+$ git branch
+* master
+
+Vedant@ALTIMO MINGW64 ~/git-pw (master)
+$ git branch om
+
+Vedant@ALTIMO MINGW64 ~/git-pw (master)
+$ git branch
+* master
+  om
+
+Vedant@ALTIMO MINGW64 ~/git-pw (master)
+$ git checkout om
+Switched to branch 'om'
+A       .gitignore
+A       key.js
+
+Vedant@ALTIMO MINGW64 ~/git-pw (om)
+$ git branch
+  master
+* om
+
+Vedant@ALTIMO MINGW64 ~/git-pw (om)
+$
+
+For Creating a new branch and switch direct
+
+Vedant@ALTIMO MINGW64 ~/git-pw (om)
+$ git checkout -b embug
+Switched to a new branch 'embug'
